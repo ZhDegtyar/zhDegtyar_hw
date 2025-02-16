@@ -6,11 +6,11 @@ public class hw3_4 {
     public static void main(String[] args) {
         int x = 5;
         int y = 2;
-        int c = ++x * y;
+        int c = ++x * y--;
         System.out.println("c = " + c);
 
         System.out.println("x = " + (x));
-        System.out.println("y = " + (--y));
+        System.out.println("y = " + (y));
 
 
     }
