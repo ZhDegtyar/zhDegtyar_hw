@@ -13,8 +13,8 @@ public class hw4_3 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число х");
         int x = in.nextInt();
-           double result = (double) 15 / x;
-        switch ((int)result) {
+        double result = (double) 15 / x;
+        switch ((int) result) {
             case 3:
                 System.out.println("Результат деления равен 3");
                 break;
@@ -24,8 +24,6 @@ public class hw4_3 {
             default:
                 System.out.println("Результат = " + (result));
         }
-
-
     }
 }
 
