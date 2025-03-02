@@ -27,19 +27,5 @@ public class hw6_3 {
         array1[minIndex]=-1000;
         array1[maxIndex]=1000;
         System.out.println(Arrays.toString(array1));
-       /* int max = MIN_VALUE;
-        int i;
-        for (i = 0; i < array1.length; i++) {
-            if (array1[i] > max) {
-                max = array1[i];
-            }
-        }
-        System.out.println(max);
-        for (i = 0; i < array1.length; i++) {
-            if (array1[i] == max) {
-                array1[i] = 1000;
-            }
-        }
-        System.out.println(Arrays.toString(array1));
-    }*/
-    }}
+    }
+}
